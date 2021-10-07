@@ -2,3 +2,45 @@
 /*font-family: 'Pacifico', cursive;*/
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 /*font-family: 'Source Serif Pro', serif;*/
+
+:root{
+    --fonte-cursiva: font-family: 'Pacifico', cursive;
+    --fonte-serifada: font-family: 'Source Serif Pro', serif;
+
+    --cor0: #DFB6EA;
+    --cor1: #CF6FE6;
+    --cor2: #A056B3;
+    --cor3: #5D3666;
+}
+
+body{
+    background-color: var(--cor0);
+    margin-right: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.281);
+    padding: 0px 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+}
