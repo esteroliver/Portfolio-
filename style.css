@@ -84,7 +84,7 @@ nav ul {
     color: var(--cor3);
     font-size: 30px;
     line-height: 30px;
-    width: 300px;
+    width: 500px;
     text-align: justify;
 }
 
@@ -98,4 +98,17 @@ nav ul {
     left: 13%;
     top: 42%;
     transform: translate(-13%, -42%)
+}
+
+.conteudo-texto button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    outline: none;
+    margin: 0px 10px;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    border-color: #9c4d73;
 }
