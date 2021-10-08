@@ -70,7 +70,7 @@ nav ul {
 .conteudo-texto p:nth-child(1){
     font-family: monospace;
     font-size: 35px;
-    color: var(--cor3);
+    color: var(--cor1);
 
 }
 .conteudo-texto p:nth-child(2){
@@ -111,4 +111,13 @@ nav ul {
     background-color: var(--cor4);
     color: var(--cor1);
     border-color: #9c4d73;
+}
+
+.conteudo-texto button a{
+    text-decoration: none;
+    color: var(--cor1);
+}
+
+button:active{
+    transform: scale(1.1);
 }
