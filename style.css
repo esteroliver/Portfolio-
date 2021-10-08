@@ -84,6 +84,8 @@ nav ul {
     color: var(--cor3);
     font-size: 30px;
     line-height: 30px;
+    width: 300px;
+    text-align: justify;
 }
 
 .conteudo-texto{
