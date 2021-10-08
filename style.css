@@ -158,7 +158,26 @@ h1{
     font-family: var(--fonte-cursiva);
     color: var(--cor3);
     font-size: 40px;
-    display: flex;
-    margin: 0px;
-    padding: 0px;
+    text-align: center;
 }
+
+.botao-contato button{
+    width: 130px;
+    height: 42px;
+    border-radius: 10px;
+    font-family: monospace;
+    font-size: 15px;
+    outline: none;
+    margin: 0px 10px;
+    background-color: var(--cor4);
+    color: var(--cor1);
+    border-color: #9c4d73;
+    margin: 20px;
+}
+
+.botao-contato button a{
+    text-decoration: none;
+    color: var(--cor1);
+
+}
+
