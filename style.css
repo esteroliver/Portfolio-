@@ -121,3 +121,11 @@ nav ul {
 button:active{
     transform: scale(1.1);
 }
+
+#img-ester{
+    height: 490px;
+    position: absolute;
+    bottom: 40px;
+    left: 87%;
+    transform: translateX(-70%);
+}
