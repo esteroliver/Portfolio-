@@ -154,11 +154,12 @@ h1{
     color: var(--cor2);
 }
 
-#projetos{
+.titulo{
     font-family: var(--fonte-cursiva);
-    color: var(--cor3);
+    color: var(--cor2);
     font-size: 40px;
-    text-align: center;
+    text-align: justify;
+    margin: 20px;
 }
 
 .botao-contato button{
