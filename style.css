@@ -93,7 +93,7 @@ nav ul {
     color: var(--cor3);
     font-size: 30px;
     line-height: 30px;
-    width: 500px;
+    width: 400px;
     text-align: justify;
 }
 
@@ -134,14 +134,14 @@ button:active{
 
 
 .conteudo-sobre{
-    width: 80%;
-    height: 230px;
+    height: 100%;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.342);
     display: flex;
     margin: auto;
     justify-content: space-evenly;
     align-items: center;
     background-color: white;
+    width: 80%;
 }
 
 h1{
