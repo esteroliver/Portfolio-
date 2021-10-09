@@ -6,6 +6,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: auto;
 }
 
 :root{
@@ -34,6 +35,9 @@ header{
     width: 100%;
     height: 95vh;
     margin: -20px;
+    min-width: 320;
+    max-width: 800;
+    margin: auto;
 
 }
 
@@ -81,6 +85,7 @@ nav ul {
     font-family: 'Pacifico', cursive;
     color: var(--cor4);
     font-size: 60px;
+    width: 100%;
 }
 
 .conteudo-texto p:nth-child(3){
