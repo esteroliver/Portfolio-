@@ -195,3 +195,19 @@ footer{
     -webkit-text-stroke-width: 2px;
     margin: 10px;
 }
+
+header main ul{
+    list-style-type: none;
+    padding: 30px;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+}
+header main ul a{
+    text-decoration: none;
+    color: var(--cor2);
+}
+header main ul li img{
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.329);
+}
+
